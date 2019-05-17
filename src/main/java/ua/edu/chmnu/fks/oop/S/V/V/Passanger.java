@@ -10,9 +10,13 @@ public class Passanger extends Car {
         Car car2 = new Car("Ford", 2013, 20000);
         Car car3 = new Car("Audi", 2012, 25000);
         Car car4 = new Car("Cadillac",2014,90424);
+
+        car1.setPrice(145000);
+        car1.setYear(2015);
         car2.setPrice(22000);
         car2.setYear(2011);
-
+        car3.setPrice(25000);
+        car3.setYear(2012);
         car4.setBrand("Cadillac");
 
         System.out.println("This car is " + car1.getBrand() + ", year " + car1.getYear() + ", price " + car1.getPrice());

@@ -5,12 +5,15 @@ public class Car {
     private String brand;
     private int priceModel;
     private int numberModel;
+    private int speed;
 
-    public Car(String b, int year, int price, int number) {
+    public Car(String b, int year, int price, int number, int speed) {
         yearModel = year;
         brand = b;
         priceModel = price;
         numberModel = number;
+
+
     }
 
     public Car(String CarModel, int Years, int Sellprice) {
