@@ -5,9 +5,8 @@ public class Car {
     private String brand;
     private int priceModel;
     private int numberModel;
-    private int speed;
 
-    public Car(String b, int year, int price, int number, int speed) {
+    public Car(String b, int year, int price, int number) {
         yearModel = year;
         brand = b;
         priceModel = price;
@@ -47,6 +46,9 @@ public class Car {
     public void setPrice(int price) {
         priceModel = price;
 
-
+    }
+    public void setNumber(int number){
+        numberModel = number ;
     }
 }
+

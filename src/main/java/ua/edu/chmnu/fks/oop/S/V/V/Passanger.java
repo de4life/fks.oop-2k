@@ -6,10 +6,10 @@ public class Passanger extends Car {
     }
 
     public static void main(String[] args)
-    {   Car car1 = new Car("Scania",2015,145000);
-        Car car2 = new Car("Ford", 2013, 20000);
-        Car car3 = new Car("Audi", 2012, 25000);
-        Car car4 = new Car("Cadillac",2014,90424);
+    {   Car car1 = new Car("Scania",2015,145000,2);
+        Car car2 = new Car("Ford", 2013, 20000,3);
+        Car car3 = new Car("Audi", 2012, 25000,1);
+        Car car4 = new Car("Cadillac",2014,90424,4);
 
         car1.setPrice(145000);
         car1.setYear(2015);
